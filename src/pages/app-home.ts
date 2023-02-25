@@ -130,6 +130,20 @@ export class AppHome extends LitElement {
             </ul>
           </sl-card>
 
+          <sl-card id="supplementaryInfo">
+            <h2>Suplementary Info</h2>
+
+            <p>This is just a paragraph to let me test this envoironment</p>
+
+            <form>
+              <div class="input-group">
+                <label for="barcode">barcode</label>
+                <input type="text" name="barcode" id="barcode" class="form-control" />
+              </div>
+            </form>
+          </sl-card>
+
+
           <sl-button href="${(import.meta as any).env.BASE_URL}about" variant="primary">Navigate to About</sl-button>
         </div>
       </main>
